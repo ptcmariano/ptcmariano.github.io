@@ -1,0 +1,22 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
